@@ -1,0 +1,36 @@
+#myCanvas{
+  border: 1px solid black;
+  margin-left: 33%;
+  position: absolute;
+  padding: 15px 17px 22px 51px;
+  background: url("http://www.strangehistory.net/blog/wp-content/uploads/2016/06/luminous-snake.jpg");
+  background: cover;
+  margin-bottom: 50px;
+}
+
+
+
+
+#btn{
+  margin-left: 15%;
+  margin-top: 15%;
+  padding: 30px 30px 30px 30px;
+  border-radius: 32%;
+  font-size: 20px;
+}
+
+h1{
+    margin-left: -5%;
+    font-size: 72px;
+    color: rgb(152, 156, 26);
+    text-align: center;
+    text-shadow: 4px -2px #08fb31ad;
+    margin-top: -15px;
+
+}
+
+body{
+  background: url("http://images6.fanpop.com/image/photos/32400000/rainforest-rainforest-32472978-1024-768.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
