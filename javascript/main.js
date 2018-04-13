@@ -8,11 +8,6 @@ var score = 0;
 var snake;
 var food;
 
-
-
-
-
-
 // game starts when start button is clicked on
 $("#btn").on("click",function(e){
  alert("Are!!!! You!!!!! Ready!!!!!");
@@ -60,17 +55,17 @@ let peach = function(x, y) {
       ctx.strokeStyle = 'orange';
       ctx.stroke();
   }
-
-let scoreText = function() {
-      // How many peachs did the snake eat
-      var score_text = "Score: " + score;
-      ctx.fillStyle = 'blue';
-      ctx.fillText(score_text, 145, h-5);
-  }
+// needs to be fixed
+// let scoreText = function() {
+//       // How many peachs did the snake eat
+//       var score_text = "Score: " + score;
+//       ctx.fillStyle = 'blue';
+//       ctx.fillText(score_text, 145, h-5);
+//   }
 
 // Initially the body of the snake will be formed by 2 squares.
 let drawSnake = function() {
-let length = 1;
+let length = 4;
 snake = [];
   // Using a for loop we push the 3rd elements inside the array(squares).
   // Every element will have x = 0 and the y will take the value of the index.
